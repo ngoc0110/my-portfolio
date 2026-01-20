@@ -1,17 +1,33 @@
-<header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
     <h1>My Portfolio</h1>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
+  <hr />
+
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
     <p>Hello! I am a web developer.</p>
   </section>
 
+  <hr />
+
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
     <ul>
@@ -20,27 +36,36 @@
     </ul>
   </section>
 
+  <hr />
+
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: example@email.com</p>
+
+    <!-- Contact Form (from feature/contact-form branch) -->
     <form>
-        <label>
-          Name:
-          <input type="text" name="name" required />
-        </label>
-        <br />
-        <label>
-          Email:
-          <input type="email" name="email" required />
-        </label>
-        <br />
-        <label>
-          Message:
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <br />
-        <button type="submit">Send</button>
-      </form>
-      
+      <label>
+        Name:
+        <input type="text" name="name" required />
+      </label>
+      <br /><br />
+
+      <label>
+        Email:
+        <input type="email" name="email" required />
+      </label>
+      <br /><br />
+
+      <label>
+        Message:
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <br /><br />
+
+      <button type="submit">Send</button>
+    </form>
   </section>
-  
+
+</body>
+</html>
